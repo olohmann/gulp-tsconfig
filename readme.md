@@ -2,6 +2,7 @@
 
 > Simple gulp plugin that creates a TypeScript project file ('tsconfig.json') for a given glob of sources. Supports ordering of project files via globs, too.
 
+A sample is provided in the [gulp-tsconfig-sample](https://github.com/olohmann/gulp-tsconfig-sample) repository.
 
 ## Install
 
