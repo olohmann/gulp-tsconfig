@@ -57,14 +57,14 @@ The tsconfig settings (e.g. "compilerOptions") as specified in the [TypeScript W
 
 ##### tsOrder
 
-Type: `object` 
+Type: `object`  
 Default: `['**/*.ts']`
 
 The order glob. The [gulp-order](https://www.npmjs.com/package/gulp-order) plugin is reused for ordering. 
 
 ##### jsBeautifyOptions
 
-Type: `object`
+Type: `object`  
 Default: 
 ```js
 {
