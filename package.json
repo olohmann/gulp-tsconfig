@@ -1,0 +1,39 @@
+{
+  "name": "gulp-tsconfig",
+  "version": "0.1.0",
+  "description": "Simple gulp plugin that creates a TypeScript project file ('tsconfig.json') for a given glob of sources. Supports ordering of project files via globs, too.",
+  "license": "MIT",
+  "repository": "olohmann/gulp-tsconfig",
+  "author": {
+    "name": "Oliver Lohmann",
+    "email": "olohmann@gmail.com",
+    "url": "http://www.oliver-lohmann.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "typescript",
+    "tsconfig",
+    "tsconfig.json"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-filenames-to-json": "^0.1.2",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.4",
+    "lazypipe": "^0.2.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
